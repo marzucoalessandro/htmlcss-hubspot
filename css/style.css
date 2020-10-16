@@ -42,6 +42,10 @@ body{
   background-color: white;
 }
 
+.blunotte{
+  background-color: #2d3e50;
+}
+
 /* un colore per tutte le scritte di tipo H e il colore di sfondo del footer */
 .scritte{
   color: #2d3e50;
@@ -163,4 +167,31 @@ body{
 .join, .girl{
   width: 50%;
   height: 350px;
+}
+
+.foot_1{
+  height: 350px;
+}
+
+.column_1, .column_2, .column_3, .column_4{
+  width: 25%;
+  height: 350px;
+}
+
+.lingue{
+  height: 100px;
+}
+
+.centrato{
+  height: 100px;
+  width: 100%;
+}
+
+.finale{
+  height: 100px;
+}
+
+.fine1, .fine2{
+  width: 50%;
+  height: 100px;
 }
