@@ -169,6 +169,11 @@ body{
   height: 350px;
 }
 
+.sorriso{
+  height: 250px;
+  width: 250px;
+}
+
 .foot_1{
   height: 350px;
 }
@@ -191,7 +196,7 @@ body{
   height: 100px;
 }
 
-.fine1, .fine2{
+.fine_1, .fine_2{
   width: 50%;
   height: 100px;
 }
