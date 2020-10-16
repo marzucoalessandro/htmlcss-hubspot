@@ -1,0 +1,109 @@
+*{box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  width: 1200px;
+  margin: 0 auto;
+  background-color: white;
+}
+
+
+/* creiamo delle classi utility per tutto il lavoro */
+
+/* la classe float */
+.fl{
+  float: left;
+}
+
+/* la nostra classe di tipo clear */
+.clear:after{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* ci sono dei colori particolari che andiamo a individuare */
+
+.orange{
+  background-color: #ff8f59;
+}
+
+.acmarin{
+  background-color: #dde3e6;
+}
+
+.celeste{
+  background-color: #00a4bd;
+}
+
+/* un colore per tutte le scritte di tipo H e il colore di sfondo del footer */
+.scritte{
+  color: #2d3e50;
+}
+
+/* una classe margin per quelle parti di testo centrate rispetto al body */
+
+.margin{
+  width: 100%;
+  padding-left: 15%;
+  padding-right: 15%;
+}
+
+.margin2{
+  width: 100%;
+  padding-left: 15%;
+}
+
+.border{
+  border: 1px solid black;
+}
+
+.navigazione{
+  height: 70px;
+}
+
+.nav{
+  width: 50%;
+  height: 70px;
+}
+
+.sotto{
+  background-color: white;
+}
+
+.sfondo{
+  background-image: url(../img/jumbotron.png);
+  background-size: cover;
+  height: 600px;
+}
+
+.titolo{
+  width: 50%;
+  background-color: white;
+  height: 350px;
+}
+
+.barra{
+  width: 100%;
+  background-color: #00c9ff;
+}
+
+.sezione_1{
+  height: 350px;
+}
+
+.sezione_free{
+  height: 300px;
+}
+
+.parte1{
+  width: 20%;
+  height: 300px;
+}
+
+.parte2{
+  width: 80%;
+  height: 300px;
+}
