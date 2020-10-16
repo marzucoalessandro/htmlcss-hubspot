@@ -4,7 +4,7 @@
 }
 
 body{
-  width: 1200px;
+  width: 1400px;
   margin: 0 auto;
   background-color: white;
 }
@@ -46,12 +46,20 @@ body{
   background-color: #2d3e50;
 }
 
+.smorto{
+  background-color: #b5dae0;
+}
+
 /* un colore per tutte le scritte di tipo H e il colore di sfondo del footer */
 .scritte{
-  color: #2d3e50;
+  color: #33475b;
+  font-family: helvetica;
 }
 
 /* una classe margin per quelle parti di testo centrate rispetto al body */
+.pd_10{
+  padding: 10px;
+}
 
 .margin{
   width: 100%;
@@ -68,29 +76,118 @@ body{
   border: 1px solid black;
 }
 
+.uno{
+  background-color: white;
+  border: 2px solid #ff8f59;
+  border-radius: 5px;
+  color: #ff8f59
+}
+
+.due{
+  background-color: #ff8f59;
+  border-radius: 5px;
+  color: white;
+  margin-left: 10px;
+}
+
+.latsx{
+  text-align: right;
+}
+
+.uno, .due, .english, .contact{
+  font-size: 15px;
+}
+
 .navigazione{
-  height: 70px;
+  height: 60px;
+  line-height: 60px;
+  vertical-align: middle;
 }
 
 .nav{
   width: 50%;
-  height: 70px;
+  height: 60px;
+}
+
+.nav a{
+  text-decoration: none;
+  text-align: center;
+}
+
+.bd{
+  border-bottom: 1px solid black
+}
+
+.english{
+  border-right: 1px solid black;
+  padding-right: 10px;
+  font-weight: 500;
+}
+
+.contact{
+  margin-left: 10px;
+  padding-right: 5px;
 }
 
 .sotto{
   background-color: white;
 }
 
+.hubspot img{
+  vertical-align: -10px;
+}
+
+.barra2{
+  text-align: right;
+}
+
+.principale{
+  margin-bottom: 10px;
+  font-weight: 700;
+  font-style: helvetica;
+  font-size: 2em;
+}
+
+.marketing{
+  font-size: 10px;
+  margin-top: 10px;
+  margin-bottom: 30px;
+  width: 300px;
+  line-height: 1.6;
+  width: 375px;
+
+}
+
+.pulsantone{
+  border-radius: 5px;
+  color: white;
+  font-family: helvetica;
+  text-decoration: none;
+  padding: 15px;
+}
+
+.small_tx{
+  margin-top: 30px;
+  font-size: 10px;
+}
+
+
+
+
+
+
 .sfondo{
   background-image: url(../img/jumbotron.png);
   background-size: cover;
-  height: 600px;
-}
+  height: 550px;
+
+
+  }
 
 .titolo{
-  width: 50%;
-  background-color: white;
+  width: 30%;
   height: 350px;
+  padding-top: 70px;
 }
 
 .barra{
