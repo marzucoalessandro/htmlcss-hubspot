@@ -141,3 +141,26 @@ body{
   height: 350px;
   width: 25%;
 }
+
+.dati{
+  height: 150px;
+}
+
+.dati1{
+  height: 150px;
+  width: 30%;
+}
+
+.dati2{
+  height: 150px;
+  width: 70%;
+}
+
+.servizi{
+  height: 350px;
+}
+
+.join, .girl{
+  width: 50%;
+  height: 350px;
+}
