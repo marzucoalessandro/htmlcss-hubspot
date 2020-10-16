@@ -38,6 +38,10 @@ body{
   background-color: #00a4bd;
 }
 
+.white{
+  background-color: white;
+}
+
 /* un colore per tutte le scritte di tipo H e il colore di sfondo del footer */
 .scritte{
   color: #2d3e50;
@@ -106,4 +110,34 @@ body{
 .parte2{
   width: 80%;
   height: 300px;
+}
+
+.tre_elem{
+  height: 600px;
+}
+
+.square1, .square2, .square3{
+  width: 30%;
+  height: 600px;
+}
+
+.square2{
+  margin:0 5%;
+}
+
+.celestone{
+  height: 500px;
+  }
+
+.row1{
+  height: 150px;
+}
+
+.row2{
+  height: 350px;
+}
+
+.grid_1, .grid_2, .grid_3, .grid_4{
+  height: 350px;
+  width: 25%;
 }
