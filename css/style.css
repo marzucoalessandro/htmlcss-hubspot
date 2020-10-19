@@ -260,6 +260,7 @@ body{
   color: white;
   border-radius: 50%;
   padding: 1px;
+  font-size: 10px;
 }
 
 
@@ -286,16 +287,67 @@ body{
 
 .tre_elem{
   height: 600px;
+  padding-top: 30px;
+  text-align: center;
 }
 
 .square1, .square2, .square3{
   width: 30%;
-  height: 600px;
+  height: 570px;
+  border-radius: 10px;
 }
 
 .square2{
   margin:0 5%;
 }
+
+.LOGO1{
+  padding: 10px;
+  height: 150px;
+  margin-bottom: 20px;
+}
+
+.LOGOTITLE{
+  margin-bottom: 20px;
+}
+
+.LOGO_p{
+  margin: 0 20px;
+  line-height: 20px;
+  font-size: 0.9em;
+  margin-bottom: 40px;
+}
+
+.LOGO_h{
+  margin-top: 30px;
+  text-transform: uppercase;
+  font-size: 15px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.piccoline{
+  text-align: left;
+  padding-left: 20px;
+}
+
+.cerchio{
+  background-color: #ff8f59;
+  color: white;
+  border-radius: 50%;
+  padding: 1px;
+  font-size: 10px;
+  margin-right: 5px;
+}
+
+.option{
+  font-size: 0.9em;
+
+
+}
+
+
+
 
 .celestone{
   height: 500px;
