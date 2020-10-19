@@ -286,7 +286,7 @@ body{
 }
 
 .tre_elem{
-  height: 600px;
+  height: 650px;
   padding-top: 30px;
   text-align: center;
 }
@@ -295,6 +295,7 @@ body{
   width: 30%;
   height: 570px;
   border-radius: 10px;
+  padding-bottom: : 20px;
 }
 
 .square2{
@@ -328,7 +329,8 @@ body{
 
 .piccoline{
   text-align: left;
-  padding-left: 20px;
+  padding-left: 30px;
+  margin-bottom: 40px;
 }
 
 .cerchio{
@@ -342,27 +344,33 @@ body{
 
 .option{
   font-size: 0.9em;
-
-
 }
-
-
-
 
 .celestone{
   height: 500px;
   }
 
 .row1{
-  height: 150px;
+  height: 200px;
+  text-align: center;
+  color: white;
 }
 
+.text{
+  padding-top: 30px;
+  padding-bottom: 30px;
+  font-size: 1.7em;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+
 .row2{
-  height: 350px;
+  height: 300px;
 }
 
 .grid_1, .grid_2, .grid_3, .grid_4{
-  height: 350px;
+  height: 300px;
   width: 25%;
 }
 
