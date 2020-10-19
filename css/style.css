@@ -526,6 +526,28 @@ body{
 }
 
 
+.pd_new{
+  margin-top: 10px;
+  padding: 10px;
+  color: #2d3e50;
+  border-radius: 5px;
+  width: 180px;
+}
+
+.pd_new a{
+  text-decoration: none;
+}
+
+.social{
+  color: white;
+  text-align: center;
+  padding-top: 10px;
+  width: 180px;
+}
+
+.social i{
+  margin: 0 8px;
+}
 
 .lingue{
   height: 100px;
