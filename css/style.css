@@ -80,7 +80,12 @@ body{
   background-color: white;
   border: 2px solid #ff8f59;
   border-radius: 5px;
-  color: #ff8f59
+  color: #ff8f59;
+  margin-left: 15px;
+}
+
+.lente{
+  color: lightblue;
 }
 
 .due{
