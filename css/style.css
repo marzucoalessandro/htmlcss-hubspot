@@ -555,16 +555,14 @@ a i{
 
 .lingue{
   height: 50px;
-  border-bottom: 1px solid white;
 }
 
 .centrato{
   height: 50px;
   width: 100%;
-
   text-align: center;
   line-height: 50px;
-
+  border-bottom: 1px solid white;
 }
 
 .centrato a{
@@ -580,4 +578,19 @@ a i{
 .fine_1, .fine_2{
   width: 50%;
   height: 100px;
+  color: white;
+  padding-top: 20px;
+}
+
+.fine_2 a{
+  color: white;
+  text-decoration: none;
+}
+
+.fine_2 span{
+  text-align: right;
+}
+
+.privacy{
+  margin-right: 20px;
 }
