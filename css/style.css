@@ -149,8 +149,7 @@ body{
 
 .principale{
   margin-bottom: 10px;
-  font-weight: 00;
-  font-style: helvetica;
+  font-family: helvetica;
   font-size: 2em;
 }
 
@@ -298,7 +297,7 @@ body{
   width: 30%;
   height: 570px;
   border-radius: 10px;
-  padding-bottom: : 20px;
+  padding-bottom: 20px;
 }
 
 .square2{
@@ -513,11 +512,21 @@ body{
   text-transform: capitalize;
 }
 
-#primo{
+#prima{
+  padding-bottom: 10px;
+  color: white;
+  text-transform: capitalize;
+
+}
+
+.primo{
   padding-bottom: 10px;
   color: white;
   text-transform: capitalize;
 }
+
+
+
 
 .column_1 li{
   list-style-type: none;
