@@ -184,7 +184,7 @@ body{
 .sfondo{
   background-image: url(../img/jumbotron.png);
   background-size: cover;
-  height: 550px;
+  height: 600px;
 
 
   }
@@ -200,8 +200,28 @@ body{
   background-color: #00c9ff;
 }
 
+.cubo{
+  text-align: center;
+  margin-top: 20px;
+}
+
+.explain{
+  font-weight: 600;
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+.explain_2{
+  font-weight: 500;
+  padding-left: 10%;
+  padding-right: 10%;
+  font-size: 15px;
+  line-height: 25px;
+}
+
 .sezione_1{
   height: 350px;
+
 }
 
 .sezione_free{
