@@ -31,7 +31,7 @@ body{
 }
 
 .acmarin{
-  background-color: #dde3e6;
+  background-color: #F5F8Fa;
 }
 
 .celeste{
@@ -176,18 +176,11 @@ body{
   font-size: 10px;
 }
 
-
-
-
-
-
 .sfondo{
   background-image: url(../img/jumbotron.png);
   background-size: cover;
   height: 600px;
-
-
-  }
+}
 
 .titolo{
   width: 30%;
@@ -202,7 +195,7 @@ body{
 
 .cubo{
   text-align: center;
-  margin-top: 20px;
+  padding-top: 20px;
 }
 
 .explain{
@@ -219,23 +212,43 @@ body{
   line-height: 25px;
 }
 
+.libro{
+  text-align: center;
+}
+
+.libro_1{
+  width: 100px;
+  height: 100px;
+  padding-top: 30px;
+  margin-bottom: 40px;
+}
+
+.pulsante{
+  color: white;
+  background-color: #ff8f59;
+  padding: 15px;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
 .sezione_1{
-  height: 350px;
+  height: 320px;
 
 }
 
 .sezione_free{
   height: 300px;
+  
 }
 
 .parte1{
-  width: 20%;
-  height: 300px;
+  width: 30%;
+  height: 250px;
 }
 
 .parte2{
-  width: 80%;
-  height: 300px;
+  width: 70%;
+  height: 250px;
 }
 
 .tre_elem{
