@@ -159,7 +159,7 @@ body{
 
 .marketing{
   font-size: 10px;
-  margin-top: 10px;
+  margin-top: 20px;
   margin-bottom: 30px;
   width: 300px;
   line-height: 1.6;
@@ -176,7 +176,7 @@ body{
 }
 
 .small_tx{
-  margin-top: 30px;
+  margin-top: 40px;
   font-size: 10px;
 }
 
@@ -595,20 +595,24 @@ a i{
   height: 100px;
 }
 
-.fine_1, .fine_2{
-  width: 50%;
+.fine_1 {
+  width: 80%;
   height: 100px;
   color: white;
   padding-top: 20px;
 }
 
+.fine_2{
+  height: 100px;
+  color: white;
+  padding-top: 20px;
+  width: 20%;
+
+}
+
 .fine_2 a{
   color: white;
   text-decoration: none;
-}
-
-.fine_2 span{
-  text-align: right;
 }
 
 .privacy{
