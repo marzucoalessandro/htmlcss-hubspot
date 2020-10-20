@@ -4,10 +4,8 @@
 }
 
 body{
-  width: 1400px;
-  margin: 40px auto;
-  background-color: white;
-  overflow-x: hidden;
+  min-width: 1400px;
+  /* overflow-x: hidden; */
 }
 
 
@@ -48,7 +46,7 @@ body{
 }
 
 .smorto{
-  background-color: #b5dae0;
+  background-color: #AFEBE4;
 }
 
 /* un colore per tutte le scritte di tipo H e il colore di sfondo del footer */
@@ -113,6 +111,10 @@ body{
 .nav{
   width: 50%;
   height: 60px;
+}
+
+.nav i{
+  color: #33475b;
 }
 
 .nav a{
