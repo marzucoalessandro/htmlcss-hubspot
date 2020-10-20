@@ -23,6 +23,12 @@ body{
   clear: both;
 }
 
+/* creiamo una classe per l'effetto hover al passaggio sui pulsanti  */
+ a.nav:hover{
+  background-color: white;
+}
+
+
 /* ci sono dei colori particolari che andiamo a individuare */
 
 .orange{
@@ -69,6 +75,11 @@ body{
 .margin2{
   width: 100%;
   padding-left: 15%;
+}
+
+/* una utility class per effetto hover */
+.effect:hover{
+  background-color: orange;
 }
 
 .border{
@@ -188,8 +199,9 @@ body{
   background-image: url(../img/jumbotron.png);
   background-size: contain;
   background-repeat: no-repeat;
-  background-position: right 65px;
+  background-position: right top;
   height: 550px;
+  position: relative;
 }
 
 .titolo{
@@ -203,7 +215,10 @@ body{
   background-color: #AFEBE4;
   border-top: 2px solid #33475b;
   border-bottom: 2px solid #33475b;
-  height: 60px;
+  height: 68px;
+  position: absolute;
+  left: 0;
+  bottom: 0;
 }
 
 .cubo{
@@ -230,7 +245,6 @@ body{
 }
 
 .libro_1{
-  /* width: 100px; */
   height: 150px;
   padding-top: 30px;
   margin-bottom: 40px;
@@ -392,7 +406,10 @@ body{
   color: white;
   padding-top: 10px;
   line-height: 40px;
+}
 
+.grid_1 img{
+  height: 35px;
 }
 
 .bordrig{
@@ -463,8 +480,17 @@ body{
 .foto, .foto2{
   padding-left: 30px;
 }
+
 .foto{
   line-height: 100px;
+}
+
+.xv{
+  height: 15px;
+}
+
+.xx{
+  height: 20px;
 }
 
 .servizi{
@@ -536,22 +562,20 @@ body{
   text-transform: capitalize;
 }
 
-
-
-
 .column_1 li{
   list-style-type: none;
   line-height: 30px;
   font-size: 15px;
 }
 
-
 .pd_new{
   margin-top: 10px;
-  padding: 10px;
+  padding: 8px;
   color: #2d3e50;
   border-radius: 5px;
   width: 180px;
+  font-family: helvetica;
+  font-size: 14px;
 }
 
 .pd_new a{
